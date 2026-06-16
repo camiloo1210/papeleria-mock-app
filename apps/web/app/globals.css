@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Theme handled dynamically by app/layout.tsx and ThemeProvider */
+  }
+
+  .dark {
+    /* Theme handled dynamically by app/layout.tsx and ThemeProvider */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
